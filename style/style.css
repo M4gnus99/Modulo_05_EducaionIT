@@ -5,9 +5,13 @@
 header, nav{
     width: 100%;
 }
+header{
+    margin-top: 5px;
+}
 body{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin: 0;
 }
 nav{
     display: flex;
@@ -46,4 +50,48 @@ h2{
 }
 img{
     width: 100%;
+}
+
+/* DESAFIO 3 */
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    font-weight: 700;
+    color:#0a2ff1;
+}
+h4,p{
+    font-size: 24px;
+    color: #04146c;
+}
+h4{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 0;
+    align-items:flex-end;
+}
+main div{
+    text-align: start;
+}
+main img{
+    width: 100%;
+}
+footer{
+    background-color:#3957F1;
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    margin: 0;
+}
+#footer-logo{
+    width: 10%;
 }
