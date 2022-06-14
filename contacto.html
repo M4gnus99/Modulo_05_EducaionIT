@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>desafio 2</title>
+</head>
+<header>
+    <nav>
+        <img id="logo" src="/img/logo.svg" alt="logo">
+        
+        <a href="index.html" class="activo">Home</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+<body>
+    <main>
+        <h2 class="h2-contacto">¿Querés que nos contactemos con vos?</h2>
+
+        <form action="" method="post">
+            <p>Dejanos tu consulta:</p>
+            <label for="nombre">Nombre completo <span>*</span></label>
+            <br>
+            <input type="text" id="nombre" >
+            <br>
+            <label for="email">Email <span>*</span></label>
+            <br>
+            <input type="email" id="email" >
+            <br>
+            <label for="comentario">Comentario<span>*</span></label>
+            <br>
+            <textarea name="comentario" id="comentario"></textarea>
+            <br>
+            <input  class="boton" id="reset" value="Resetear" type="reset">
+            <input class="boton" value="Enviar" id="enviar" type="submit">
+        </form>
+    </main>  
+</body>
+</html>
